@@ -38,7 +38,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .navbar-default .navbar-collapse{background:#fafafa; }
 
 
-.banner{background:url(01.jpg) #000;margin-top: 4em;background-size: cover;}
+.banner{background:url(02.JPG) #000;margin-top: 4em;background-size: cover;}
 .overlay{background:rgba(242, 24, 97, 0.9);}
 
 
@@ -63,7 +63,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .gototop i{line-height: 0.5em;}
 
 
-@media (max-width: 1200px) {		
+@media (max-width: 1200px) {
 	.spacer{padding: 2em;}
 }
 
@@ -79,13 +79,13 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.spacer {padding: 1.5em 1.5em 0 1.5em;}
 	.navbar-brand{height: 56px;}
 	.btn {padding: 0.5em 2em;}
-}	
+}
 
 @media (max-width: 767px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 	h1{padding: 2em 0;}
-	.navbar-nav > li > a {line-height: 1em;}	
-	.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}	
+	.navbar-nav > li > a {line-height: 1em;}
+	.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}
 	.navbar-default{background: #fff !important;}
 	.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#681D4D ;color: #fff;border: none;border-radius: 0;}
 	.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
