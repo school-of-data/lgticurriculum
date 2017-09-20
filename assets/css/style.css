@@ -39,7 +39,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .in {font-size:12px !important; line-height: 14px !important; padding:10px !important; margin:10px auto;}
 
-.btn{border:none;border-radius: 0;padding: 0.75em 3em;text-transform: uppercase;}
+.btn{border:none;border-radius: 0;padding: 0.75em 3em;}
 .btn-danger{background: rgb(217, 54, 33) !important;}
 .btn:hover,.btn:active{color: #fff;box-shadow: none;}
 
