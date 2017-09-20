@@ -1,7 +1,7 @@
-body {	color:#666;	font:300 15px/15px Open Sans,Arial,Helvetica;background-color:#e6e4e4;-webkit-font-smoothing:antialiased;background-color: #eee;}
+body {	color:#666;	font:300 15px/15px Open Sans,Arial,Helvetica;background-color:#00aff0;-webkit-font-smoothing:antialiased;background-color: #eee;}
 
-a{color:#55bfcc; text-decoration:none;}
-a:hover{color:#b8ccce;}
+a{color:#00aff0; text-decoration:none;}
+a:hover{color:#00aff0;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -11,9 +11,9 @@ transition: all 0.3s ease-in-out;
 outline: none !important;
 }
 
-.btn{border:solid 2px #55bfcc; !important}
-.btn:hover {color:#55bfcc;}
-.btn:active li{background-color:#55bfcc; !important}
+.btn{border:solid 2px #00aff0; !important}
+.btn:hover {color:#00aff0;}
+.btn:active li{background-color:#00aff0; !important}
 
 h1,h2,h3,h4{margin: 0;line-height: 1em;}
 h1{font:700 3em Open Sans,Arial,Helvetica;padding:5em 0;text-transform: uppercase;color: #fff;}
@@ -45,20 +45,20 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .navbar-nav > li > a{font-size: 1em;line-height:2em;}
 .navbar-inverse{background: #111;}
-.navbar-brand{color: #fff !important;background: #3bb9c4  !important;margin-left: 0 !important;height: 60px;padding: 1em;font:700 1.25em Open Sans; }
+.navbar-brand{color: #fff !important;background: #00aff0  !important;margin-left: 0 !important;height: 60px;padding: 1em;font:700 1.25em Open Sans; }
 .navbar-default .navbar-nav>li>a{color: #000 !important;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{color: #fff !important;background-color: #3bb9c4 ;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{color: #fff !important;background-color: #00aff0 ;}
 .navbar-nav.navbar-right:last-child{margin-right: 0 !important}
 .navbar-default{background:none;border:none; }
 .navbar-default .navbar-collapse{background:#fff; }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
     color: #fff;
-    background-color: #55bfcc; !important
+    background-color: #00aff0; !important
 }
 
 .nav-pills a{
-    border: 2px #55bfcc solid; !important
+    border: 2px #00aff0 solid; !important
 }
 
 .tab-content {
@@ -114,7 +114,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.navbar-nav > li > a {line-height: 1em;}
 	.navbar-brand{padding: 7px;height: 50px;line-height: 2em;margin-left: 15px !important;}
 	.navbar-default{background: #fff !important;}
-	.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#3bb9c4 ;color: #fff;border: none;border-radius: 0;}
+	.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#00aff0 ;color: #fff;border: none;border-radius: 0;}
 	.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
 
@@ -141,7 +141,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
   content: "";
   width: 3px;
   height: 100%;
-  background: #3bb9c4;
+  background: #00aff0;
   left: 50%;
   top: 0;
   position: absolute;
@@ -157,7 +157,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
   position: relative;
 }
 #timeline .timeline-item .timeline-icon {
-  background: #3bb9c4;
+  background: #00aff0;
   width: 50px;
   height: 50px;
   position: relative;
@@ -196,7 +196,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
-  background: #3bb9c4;
+  background: #00aff0;
   color: #fff;
   margin: -10px -20px 0 -20px;
     text-transform: none !important;
@@ -225,7 +225,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #3bb9c4;
+  border-left: 7px solid #00aff0;
 }
 
 #timeline .timeline-item .timeline-content.right:before {
@@ -241,7 +241,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #3bb9c4;
+  border-right: 7px solid #00aff0;
 }
 
 @media screen and (max-width: 768px) {
@@ -261,7 +261,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #3bb9c4;
+    border-right: 7px solid #00aff0;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
