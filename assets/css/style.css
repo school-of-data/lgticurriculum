@@ -32,7 +32,9 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .spacer-contact {padding:3em 3em 0 3em;}
 .descr {padding-bottom: 1em;}
 
-
+.logo img {
+   width: 100%;
+}
 .spacer-instrutores p {font-size:0.9em;line-height: 1.5em; margin-bottom: 1.5em;text-align: justify;}
 
 #mesa1, #mesa2, #mesa3, #workshop1, #workshop2, #workshop3 {font-size:12px !important; line-height: 14px !important; padding:10px !important; margin:10px auto; border:1px dashed #666;}

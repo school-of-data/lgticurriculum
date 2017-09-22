@@ -322,31 +322,31 @@
   <h2><i class="fa fa-users"></i>&nbsp;&nbsp;Partners</h2>
   <!-- teste -->
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 logo">
       <!--p><center><a href="https://www.irex.org/" target="_blank"><img src="./assets/images/irex_vertical.png" height="100" width="100"></a><br></p-->
-      <p><center><a href="https://okfn.org/" target="_blank"><img src="./assets/images/oki.png" height="100" width="100"></a><br></p>
+      <p><center><a href="https://okfn.org/" target="_blank"><img src="./assets/images/oki_landscape.png" height="75" width="100"></a><br></p>
     </div>
-      <div class="col-md-4">
+      <div class="col-md-4 logo">
         <p><center><a href="https://www.mcc.gov/initiatives/initiative/mcc-pepfar-partnership" target="_blank"><img src="./assets/images/mcc_pepfar.png" height="75" width="250"></a><br></p>
         </div>
-        <div class="col-md-4">
-          <p><center><a href="https://resourcegovernance.org/" target="_blank"><img src="./assets/images/nrgi.png" height="100" width="150"></a><br></p>
+        <div class="col-md-4 logo">
+          <p><center><a href="http://www.publishwhatyoupay.org/" target="_blank"><img src="./assets/images/pwyp_landscape.jpg" height="75" width="150"></a><br></p>
           </div>
         <!--/div-->
         <!--br><br><br><br><br><br><br><br-->
 
         <!--div class="row"-->
-          <div class="col-md-3">
+          <div class="col-md-3 logo">
             <p><center><a href="https://datazetu.or.tz/" target="_blank"><img src="./assets/images/data_zetu.png" height="100" width="150"></a><br></p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 logo">
               <p><center><a href="https://hivos.org/" target="_blank"><img src="./assets/images/hivos.png" height="100" width="150"></a><br></p>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 logo">
                 <p><center><a href="https://dlab.or.tz/" target="_blank"><img src="./assets/images/dLab.png" height="100" width="150"></a><br></p>
                 </div>
-                <div class="col-md-3">
-                  <p><center><a href="http://www.publishwhatyoupay.org/" target="_blank"><img src="./assets/images/pwyp_landscape.jpg" height="100" width="150"></a><br></p>
+                <div class="col-md-3 logo">
+                  <p><center><a href="https://resourcegovernance.org/" target="_blank"><img src="./assets/images/nrgi.png" height="100" width="150"></a><br></p>
                   </div>
                 </div>
 
@@ -413,6 +413,21 @@
               $(document).ready(function(){
                 $('[data-toggle="popover"]').popover();
               });
+              </script>
+
+              <!-- image aspect ratio script -->
+              <script type="text/javascript">
+              (function() {
+
+              var img = document.getElementById('container').firstChild;
+              img.onload = function() {
+                  if(img.height > img.width) {
+                      img.height = '100%';
+                      img.width = 'auto';
+                  }
+              };
+
+              }());
               </script>
 
 
