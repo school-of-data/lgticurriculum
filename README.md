@@ -1,2 +1,2 @@
-# SCODACAMP17: School of Data Summer Camp 2017
-This repository contains the code for the School of Data Summer Camp 2017 in Dar es Salaam, Tanzania
+# Local Government Training Institute (LGTI): Data Curriculum
+This repository contains the code for the Local Government Training Insitute (LGTI) data curriculum that was developed by School of Data with funding from the World Bank Tanzania.
